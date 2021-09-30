@@ -5,4 +5,19 @@ body,
   margin: 0;
   box-sizing: border-box;
   font: 62.5%; /* 100% = 16px; 62.5% = 10px */
+  font-family: "Gemunu Libre", sans-serif;
+}
+.head {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 5rem;
+}
+.first_row {
+  display: flex;
+}
+.block_image_card {
+  border-color: blue;
+}
+.block_image {
+  width: 30vw;
 }
