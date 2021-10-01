@@ -12,12 +12,19 @@ body,
   text-align: center;
   font-size: 5rem;
 }
-.first_row {
+.flex_container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .block_image_card {
-  border-color: blue;
+  width: 28%;
+  margin: 1rem;
 }
 .block_image {
-  width: 30vw;
+  width: 100%;
+}
+.block_text {
+  text-align: center;
 }
