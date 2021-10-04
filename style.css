@@ -6,9 +6,10 @@ body,
   box-sizing: border-box;
   font: 62.5%; /* 100% = 16px; 62.5% = 10px */
   font-family: "Gemunu Libre", sans-serif;
+  background-color: #b8c5d6;
 }
 .head {
-  margin: 10px auto;
+  margin: auto;
   text-align: center;
   font-size: 5rem;
 }
@@ -20,11 +21,14 @@ body,
 }
 .block_image_card {
   width: 28%;
-  margin: 1rem;
+  margin: 2rem;
+  box-shadow: 0.4rem 0.3rem 0.8rem 1rem #6d9dc5;
 }
 .block_image {
   width: 100%;
 }
 .block_text {
   text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
 }
