@@ -21,8 +21,12 @@ body,
 }
 .block_image_card {
   width: 21%;
-  margin: 2rem;
+  margin: 4rem;
   box-shadow: 0.4rem 0.3rem 0.8rem 1rem #6d9dc5;
+  transition: all 0.3s;
+}
+.block_image_card:hover {
+  transform: scale(1.2);
 }
 .block_image {
   width: 100%;
@@ -31,4 +35,6 @@ body,
   text-align: center;
   margin: 1rem;
   font-size: 2rem;
+}
+.bulbasaur:hover {
 }
