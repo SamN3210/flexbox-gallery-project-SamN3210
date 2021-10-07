@@ -6,6 +6,8 @@ body,
   box-sizing: border-box;
   font: 62.5%; /* 100% = 16px; 62.5% = 10px */
   font-family: "Gemunu Libre", sans-serif;
+}
+.body {
   background-color: #b8c5d6;
 }
 .head {
