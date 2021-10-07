@@ -39,4 +39,13 @@ body,
   font-size: 2rem;
 }
 .bulbasaur:hover {
+  opacity: 0.5;
+}
+.charmander:hover {
+  filter: grayscale();
+}
+.squirtle:hover {
+  filter: sepia();
+}
+.venusaur:hover {
 }
