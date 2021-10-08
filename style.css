@@ -47,5 +47,50 @@ body,
 .squirtle:hover {
   filter: sepia();
 }
+.venusaur {
+  transition: all 0.8s;
+}
 .venusaur:hover {
+  transform: rotate(360deg);
+}
+.charizard:hover {
+  transform: skew(-10deg);
+}
+.blastoise:hover {
+  transform: translate(-5rem, -5rem);
+}
+.animation {
+  position: absolute;
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  color: white;
+}
+@keyframes animation {
+  0% {
+    left: 0%;
+    bottom: 0%;
+    background-color: red;
+  }
+  25% {
+    left: 10%;
+    bottom: 20%;
+    background-color: yellow;
+  }
+  50% {
+    left: 55%;
+    bottom: 20%;
+    background-color: blue;
+  }
+  75% {
+    left: 55%;
+    bottom: 10%;
+    background-color: purple;
+  }
+  100% {
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+  }
 }
