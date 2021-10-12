@@ -59,38 +59,64 @@ body,
 .blastoise:hover {
   transform: translate(-5rem, -5rem);
 }
-.animation {
-  position: absolute;
-  animation-name: animation;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  color: white;
+.animation_image {
+  width: 3vw;
 }
 @keyframes animation {
   0% {
-    left: 0%;
-    bottom: 0%;
-    background-color: red;
+    top: 1rem;
+    left: 1rem;
   }
   25% {
-    left: 10%;
-    bottom: 20%;
-    background-color: yellow;
+    top: 1rem;
+    left: 4rem;
   }
   50% {
-    left: 55%;
-    bottom: 20%;
-    background-color: blue;
+    top: 4rem;
+    left: 4rem;
   }
   75% {
-    left: 55%;
-    bottom: 10%;
-    background-color: purple;
+    top: 4rem;
+    left: 1rem;
   }
   100% {
-    left: 50%;
-    bottom: 10%;
-    background-color: red;
+    top: 1rem;
+    left: 1rem;
   }
+}
+.animation1 {
+  position: absolute;
+  animation-name: animation1;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes animatioan2 {
+  0% {
+    top: -1rem;
+    left: -1rem;
+  }
+  25% {
+    top: -1rem;
+    left: -4rem;
+  }
+  50% {
+    top: 4rem;
+    left: 4rem;
+  }
+  75% {
+    top: 4rem;
+    left: 1rem;
+  }
+  100% {
+    top: 1rem;
+    left: 1rem;
+  }
+}
+.animation2 {
+  position: absolute;
+  animation-name: animation2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
