@@ -84,38 +84,9 @@ body,
     left: 1rem;
   }
 }
-.animation1 {
+.animation {
   position: absolute;
-  animation-name: animation1;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-}
-@keyframes animatioan2 {
-  0% {
-    top: -1rem;
-    left: -1rem;
-  }
-  25% {
-    top: -1rem;
-    left: -4rem;
-  }
-  50% {
-    top: 4rem;
-    left: 4rem;
-  }
-  75% {
-    top: 4rem;
-    left: 1rem;
-  }
-  100% {
-    top: 1rem;
-    left: 1rem;
-  }
-}
-.animation2 {
-  position: absolute;
-  animation-name: animation2;
+  animation-name: animation;
   animation-duration: 4s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
