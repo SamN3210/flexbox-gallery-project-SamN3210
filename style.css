@@ -96,10 +96,11 @@ body,
     font-size: 3rem;
   }
   .block_image_card {
-    width: 40%;
+    width: 30%;
+    margin: 2rem;
   }
   .block_text {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   @keyframes animation {
     0% {
