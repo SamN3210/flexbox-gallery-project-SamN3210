@@ -11,7 +11,7 @@ body,
   background-color: #b8c5d6;
 }
 .head {
-  margin: auto;
+  margin: 0rem 5rem;
   text-align: center;
   font-size: 5rem;
 }
@@ -87,41 +87,43 @@ body,
 .animation {
   position: absolute;
   animation-name: animation;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
+  animation-direction: linear;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .head {
     font-size: 3rem;
+    margin: 0rem 1.5rem;
   }
   .block_image_card {
     width: 30%;
     margin: 2rem;
   }
   .block_text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   @keyframes animation {
     0% {
-      top: 0.75rem;
-      left: 1rem;
+      top: 0.5rem;
+      left: 0.5rem;
     }
     25% {
-      top: 0.75rem;
-      left: 2rem;
+      top: 0.5rem;
+      left: 1rem;
     }
     50% {
-      top: 2rem;
-      left: 2rem;
+      top: 1rem;
+      left: 1rem;
     }
     75% {
-      top: 2rem;
-      left: 0.75rem;
+      top: 1rem;
+      left: 0.5rem;
     }
     100% {
-      top: 0.75rem;
-      left: 0.75rem;
+      top: 0.5rem;
+      left: 0.5rem;
     }
   }
 }
