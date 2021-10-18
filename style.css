@@ -26,6 +26,7 @@ body,
   margin: 2.5rem;
   box-shadow: 0.4rem 0.3rem 0.8rem 1rem #6d9dc5;
   transition: all 0.3s;
+  border-radius: 10px;
 }
 .block_image_card:hover {
   transform: scale(1.1);
