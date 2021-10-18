@@ -35,7 +35,7 @@ body,
 }
 .block_text {
   text-align: center;
-  margin: 1rem;
+  margin: 1rem 0rem;
   font-size: 2rem;
 }
 .bulbasaur:hover {
@@ -47,17 +47,17 @@ body,
 .squirtle:hover {
   filter: sepia();
 }
-.venusaur {
+.ivysaur {
   transition: all 0.8s;
 }
-.venusaur:hover {
+.ivysaur:hover {
   transform: rotate(360deg);
 }
-.charizard:hover {
+.charmeleon:hover {
   transform: skew(-10deg);
 }
-.blastoise:hover {
-  transform: translate(-5rem, -5rem);
+.wartortle:hover {
+  transform: translate(-1rem, -1rem);
 }
 .animation_image {
   width: 3vw;
@@ -95,18 +95,14 @@ body,
 @media (max-width: 770px) {
   .head {
     font-size: 3.5rem;
-    margin: 0rem 3rem;
+    margin: 0rem 4rem;
   }
   .block_image_card {
     width: 23%;
-    margin: 2rem;
+    margin: 2.5rem 2rem;
   }
   .block_text {
     font-size: 1.5rem;
-    color: coral;
-  }
-  .blastoise:hover {
-    transform: translate(-2rem, -2rem);
   }
   @keyframes animation {
     0% {
@@ -138,14 +134,10 @@ body,
   }
   .block_image_card {
     width: 30%;
-    margin: 2rem;
+    margin: 2.5rem 2rem;
   }
   .block_text {
     font-size: 1.2rem;
-    color: darkgreen;
-  }
-  .blastoise:hover {
-    transform: translate(-1rem, -1rem);
   }
   @keyframes animation {
     0% {
