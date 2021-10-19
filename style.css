@@ -7,13 +7,11 @@ body,
   font: 62.5%; /* 100% = 16px; 62.5% = 10px */
   font-family: "Gemunu Libre", sans-serif;
 }
-.body {
-  background-color: #b8c5d6;
-}
 .head {
   margin: 0rem 6rem;
   text-align: center;
   font-size: 5rem;
+  color: cornflowerblue;
 }
 .flex_container {
   display: flex;
@@ -26,7 +24,7 @@ body,
   margin: 2.5rem;
   box-shadow: 0.4rem 0.3rem 0.8rem 1rem #6d9dc5;
   transition: all 0.3s;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 .block_image_card:hover {
   transform: scale(1.1);
@@ -97,6 +95,7 @@ body,
   .head {
     font-size: 3.5rem;
     margin: 0rem 4rem;
+    color: cadetblue;
   }
   .block_image_card {
     width: 23%;
@@ -132,6 +131,7 @@ body,
   .head {
     font-size: 3rem;
     margin: 0rem 2rem;
+    color: blueviolet;
   }
   .block_image_card {
     width: 30%;
