@@ -59,7 +59,7 @@ body,
   transform: translate(-1rem, -1rem);
 }
 .animation_image {
-  width: 5vw;
+  width: 3vw;
 }
 @keyframes animation {
   0% {
