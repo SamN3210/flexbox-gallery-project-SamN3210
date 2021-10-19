@@ -7,6 +7,10 @@ body,
   font: 62.5%; /* 100% = 16px; 62.5% = 10px */
   font-family: "Gemunu Libre", sans-serif;
 }
+head,
+body {
+  background-color: #17255a;
+}
 .head {
   margin: 0rem 6rem;
   text-align: center;
@@ -25,6 +29,7 @@ body,
   box-shadow: 0.4rem 0.3rem 0.8rem 1rem #6d9dc5;
   transition: all 0.3s;
   border-radius: 30px;
+  background-color: #b3cdd1;
 }
 .block_image_card:hover {
   transform: scale(1.1);
@@ -104,6 +109,9 @@ body,
   .block_text {
     font-size: 1.5rem;
   }
+  .block_image_card {
+    box-shadow: 0.4rem 0.3rem 0.8rem 0.7rem #6d9dc5;
+  }
   @keyframes animation {
     0% {
       top: 1rem;
@@ -139,6 +147,9 @@ body,
   }
   .block_text {
     font-size: 1rem;
+  }
+  .block_image_card {
+    box-shadow: 0.4rem 0.3rem 0.8rem 0.3rem #6d9dc5;
   }
   @keyframes animation {
     0% {
