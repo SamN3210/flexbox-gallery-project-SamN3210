@@ -142,12 +142,18 @@ body {
     margin: 0rem 2rem;
     color: blueviolet;
   }
+  .flex_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   .block_image_card {
-    width: 20%;
-    margin: 1.2rem;
+    width: 70%;
+    margin: 1.2rem auto;
   }
   .block_text {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .block_image_card {
     box-shadow: 0.4rem 0.3rem 0.8rem 0.3rem #6d9dc5;
